@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+   <event name="cms_block_save_after">
+       <observer name="save_block_field_relations" instance="Panalink\ContentScheduler\Observer\Scheduler" />
+   </event>
+</config>

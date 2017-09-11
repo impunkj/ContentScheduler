@@ -1,0 +1,21 @@
+{
+    "name": "panalink/module-contentscheduler",
+    "description": "Static Block Content Scheduled  for static block",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Panalink\\ContentScheduler\\": ""
+        }
+    }
+}

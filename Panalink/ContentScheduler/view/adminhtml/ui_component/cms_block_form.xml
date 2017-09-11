@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © 2013-2017 Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+ <fieldset name="general">       
+	   <field name="custom_block_from">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+				<item name="sortOrder" xsi:type="number">20</item>
+                    <item name="label" xsi:type="string" translate="true">From</item>
+                    <item name="dataType" xsi:type="string">string</item>
+                    <item name="formElement" xsi:type="string">date</item>
+                    <item name="source" xsi:type="string">block</item>
+                    <item name="dataScope" xsi:type="string">custom_block_from</item>
+                    <item name="validation" xsi:type="array">
+                        <item name="validate-date" xsi:type="boolean">true</item>
+                    </item>
+					<item name="options" xsi:type="array">
+									<item name="dateFormat" xsi:type="string">y-MM-dd</item>
+									<item name="outputDateFormat" xsi:type="string">y-MM-dd</item>
+					</item>					
+                </item>
+            </argument>
+        </field>
+        <field name="custom_block_to">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+				 <item name="sortOrder" xsi:type="number">21</item>
+                    <item name="label" xsi:type="string" translate="true">To</item>
+                    <item name="dataType" xsi:type="string">string</item>
+                    <item name="formElement" xsi:type="string">date</item>
+                    <item name="source" xsi:type="string">block</item>
+                    <item name="dataScope" xsi:type="string">custom_block_to</item>
+                    <item name="validation" xsi:type="array">
+                        <item name="validate-date" xsi:type="boolean">true</item>
+                    </item>
+					<item name="options" xsi:type="array">
+								<item name="dateFormat" xsi:type="string">y-MM-dd</item>
+								<item name="outputDateFormat" xsi:type="string">y-MM-dd</item>
+					</item>						
+                </item>
+            </argument>
+        </field>
+	</fieldset>
+</form>
