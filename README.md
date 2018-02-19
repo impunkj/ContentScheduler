@@ -4,3 +4,5 @@ Static Block should bs display according to given date.
 Put on app/code/
 
 Easily manages all static blocks show according to Time.
+
+Manage From admin
